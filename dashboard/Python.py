@@ -6,8 +6,8 @@ import seaborn as sns
 # Load datasets
 def load_data():
     # Sesuaikan path dataset sesuai lokasi file Anda
-    day_data = pd.read_csv('../data/day.csv')
-    hour_data = pd.read_csv('../data/hour.csv')
+    day_data = pd.read_csv('data/day.csv')
+    hour_data = pd.read_csv('data/hour.csv')
     return day_data, hour_data
 
 # Main function to run the Streamlit app
